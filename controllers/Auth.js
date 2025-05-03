@@ -21,7 +21,7 @@
  let hashedPassword;
  try{
  hashedPassword = await bcrypt.hash(password,10);
- }
+ } 
 
  catch(err){
     return res.status(500).json({

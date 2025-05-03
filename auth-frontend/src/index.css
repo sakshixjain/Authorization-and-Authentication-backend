@@ -1,0 +1,63 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.product-item {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  display: flex;
+  border: 7px solid pink;
+  background-color: #4caf50;
+  text-align: center;
+  justify-content: center;
+  margin: 16px auto;
+  max-width: 400px;
+  background-color: #fff;
+  transition: transform 0.2s ease-in-out;
+}
+
+.product-item:hover {
+  transform: scale(1.02);
+}
+
+.prod-item {
+  display: flex;
+  align-items: center;
+ 
+  gap: 12px;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 6px;
+  color: white;
+ 
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+form{
+  
+  justify-content: center;
+  text-align: center;
+  margin: 13px;
+  
+}
+
+input{
+  outline:auto;
+}

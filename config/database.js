@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 require('dotenv').config();
 
 exports.connect = () => {
-    mongoose.connect("mongodb+srv://sakshi32:n7eDc1UONRC1clwL@cluster0.aqnor.mongodb.net/Authdata", {
+    mongoose.connect("mongodb://localhost:27017/authapp", {
         useNewUrlParser: true,
         useUnifiedTopology: true,
     })
